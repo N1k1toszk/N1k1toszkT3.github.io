@@ -5,7 +5,7 @@ html{
 }
 .logo{
     float:left;
-    width: 400px;
+    width:auto;
     height: 250px;
     margin: 0 auto;
 
@@ -54,6 +54,7 @@ footer{background-color: bisque;}
 .tabletask  {
     background-color: bisque;
     margin: 0 auto;
+    width: 100%;
 }
 .tabletask table{
     background-color: bisque;
@@ -70,10 +71,15 @@ footer{background-color: bisque;}
     margin-bottom: 30px;
     background-color: bisque;
 }
-.tabletask tr{background-color: rgb(252, 252, 252)
+.tabletask tr{background-color: rgb(252, 252, 252);
+    font-size: small;
 }
-
-.tabletask th{background-color:bisque0}
+.tabletask td{
+    font-size: small;
+}
+.tabletask th{background-color:bisque;
+    font-size: small;   
+}
 .fig{
     width: 90%;
 }
@@ -120,4 +126,24 @@ tr:nth-child(odd) {background-color:bisque;}
         .legenda{
             width: 40%;
         }
+        .tabletask tr{background-color: rgb(252, 252, 252);
+        }
+        .tabletask th{background-color:bisque;   
+        }
+        .tabletask td{
+            font-size: medium;
+        }
+        tr:nth-child(odd) {background-color:bisque;}
+        .tabletask  {
+            background-color: bisque;
+            margin: 0 auto;
+            width:28%;
+        }
+        .logo{
+            float:left;
+            width: 400px;
+            height: 250px;
+            margin: 0 auto;
+        
+        }    
     }
