@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widht=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Задание №2</title>
+    </head>
+    <header>
+    <a href=""><img src="logotype.jpg"class="logo" alt="Лого"></a>
+        <div class="main">
+
+                <div class="backtext"> <h1>Пацаны</h1></div>
+            </header> 
+    
+            <nav class="menu">
+                <a href="#links">Ссылки</a>
+                <a href="#table">Таблица</a>
+                <a href="#form">Форма</a>
+            </nav></div>
+        </div>
+ <body>
+<div class="swap">
+    <div class="silki">
+        <h1><a id="links">Ссылки.</h1>
+    
+        <ol>
+        
+    
+    
+
+        <li> <a href="http://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">Абсолютная гиперссылку на главную страницу сайта КубГУ.</a> </li><br>
+        <li> <a href="https://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">Абсолютная гиперссылку на главную страницу сайта КубГУ по протоколу https. </a> </li><br>
+        <li> <a href="legenda.jpg"><img src="legenda.jpg" class="legenda"></a> </li><br>
+        <li> <a href="inside/form.html">Сокращенная ссылка на внутреннюю страницу.</a></li><br>
+        <li> <a href="index.html">Сокращенная ссылка на главную страницу.</a></li><br>
+        <li> <a href= #form>Ссылка на фрагмент текущей страницы (form).</a></li><br>
+        <li> <a href=https://www.ozon.ru/search/?currency_price=2000.000%3B3000.000&from_global=true&seller=2203633&text=тяги+крокодил>Ссылка с тремя параметрами в URL.</a></li><br>
+        <li> <a href=https://www.example/com/product?id=12345> Cсылкa с параметром id в URL.</a></li><br>
+        <li> <a href="demo.html">Относительная ссылка на страницу в текущем каталоге.</a></li><br>
+        <li> <a href="about/about.html">Относительная ссылка на страницу в каталоге about.</a></li><br>
+        <li> <a href="../index2.html">Относительная на страницу в каталоге уровнем выше текущего.</a></li><br>
+        <li> <a href="../../index3.html">Относительная на страницу в каталоге двумя уровнями выше.</a></li><br>
+        <li> Нажав  <a href="https://pic.rutubelist.ru/video/7a/cc/7acc8d3a1c852b241885b3f9e35a5608.jpg">СЮДА</a>, Вы увидите Хулигана.</li><br>
+        <li> <a href="https://ru.wikipedia.org/wiki/Dota_2#Dota_Plus">Ссылка на фрагмент страницы стороннего сайта.</a></li>
+        <li><map name ="yandex">
+            <area shape="rect"coords="311,110,744,285"href="https://hd.kinopoisk.ru"alt="Прямоугольник">
+            <area shape="circle"coords="168,184,115"href="https://market.yandex.ru" alt="Круг">
+            </map>
+            <a id="map"><img src="figures.png " class="fig" usemap="#yandex"></a>
+            <br /><em>(Треугольник не является круглой или прямоугольной фигурой, следовательно, не будет являться ссылкой-изображением)</em><br>
+        </li>
+        <li> <a href="">Ссылка с пустым href.</a></li><br>
+        <li><a>Ссылка без href.</a></li><br>
+        <li><a href="https://example.com"rel="nofollow">Ссылка, по которой запрещен переход поисковикам.</a></li><br>
+        <li><a href="https://example.com"><noindex>Ссылка, запрещенная для индексации поисковиками.</noindex></a></li><br>
+        <li>Список ссылок основной навигации сайта с подписями title
+            <ol>
+                <br><li><a href="https://music.yandex.ru/home"title="Яндекс Музыка">Яндекс Музыка</a></li><br>
+                <li><a href="https://hd.kinopoisk.ru"title="Кинопоиск">Кинопоиск</a></li><br>
+                <li><a href="https://afisha.yandex.ru/krasnodar"title="Яндекс Афиша">Яндекс Афиша</a></li><br>
+            </ol>
+        </li><br>
+        <li><a href="ftp://login:password@example.com/AllFiles/file.txt" download>Ссылка на файл на сервере FTP с авторизацией.</a></li>
+    </ol></a>
+
+    </div>
+
+    <div class="ttt">
+    <h2>Форма HTML</h2>
+    <form action="/"
+        id="form"
+        method="POST">
+        Ваше ФИО:<br/>
+            <input name="text" required>
+            <br/><br/>
+        Ваш номер телефона:<br/>
+            <input type="number" required>
+            <br/><br/>
+        Ваша электронная почта:<br/>
+            <input name="field-email" required
+            type="email"
+            placeholder="example@mail.ru"/>
+            <br/><br/>
+        Ваша дата рождения:<br/>
+            <input name="field-date"
+            value="1-01-01"
+            type="date">
+            </br><br/>
+        Ваш пол:<br/>
+            <input type="radio" value="m"name="radio-group-1"/>Мужской
+            <input type="radio" value="w"name="radio-group-1"/>Женский
+            <br/><br/>
+        Ваши любимые языки программирования:<br/>
+            <select name="field-prog"
+            multiple="multiple">
+                <option value="1">Pascal</option>
+                <option value="2">C++</option>
+                <option value="3">C</option>
+                <option value="4">JavaScript</option>
+                <option value="5">PHP</option>
+                <option value="6">Python</option>
+                <option value="7">Java</option>
+                <option value="8">Hascel</option>
+                <option value="9">Clojure</option>
+                <option value="10">Prolog</option>
+                <option value="11">Scala</option>
+            </select><br/><br/>
+        Ваша биография:<br/>
+            <textarea name="field-bio"></textarea>
+            <br/><br/>
+        Чекбокс<br/>
+                <input type="checkbox"
+                name="check-1"/>С контрактом ознакомлен(а)
+            <br/><br/>
+        <input type="submit"value="Отправить"/>
+    </form>
+    </div>
+    <div class="flex-order">
+        <table class="tabletask">
+            <a id="table"><h2>Таблица</h2>
+            <caption>Рейтинг характеристик пацанов</caption>
+            <tr>
+                <th>Имя</th>
+                <th>Фейм</th>
+                <th>Способности</th>
+                <th>Адекватность</th>
+                <th>Боевой интеллект</th>
+            </tr>
+            <div class="chetn">
+            <tr>
+                <td>Хоумлендер</td>
+                <td>10</td>
+                <td>9</td>
+                <td>9</td>
+                <td>5</td>
+        
+            </tr></div>
+            <tr>
+                <td>Бутчер</td>
+                <td colspan="2">9</td>  
+                <td>1.5</td>
+                <td>4</td>
+            </tr>
+            <div class="chetn">
+            <tr>
+                <td>Звездочка</td>
+                <td>5</td>
+                <td>2.5</td>
+                <td>6</td>
+                <td>2.28</td>
+        
+            </tr></div>
+            <tr>
+                <td>Солдатик</td>
+                <td>10</td>
+                <td>7</td>
+                <td>10</td>
+                <td>4</td>
+            </tr>
+            <div class="chetn">
+            <tr>
+                <td>Виктория Ньюман</td>
+                <td colspan="2">10</td>
+                <td>8</td>
+                <td>10</td>
+            </tr></div>
+            <tr>
+                <td>Хью Кэмбл</td>
+                <td colspan="2">1.337</td>
+                <td>9</td>
+                <td>8</td>
+            </tr>
+        </table></a>
+    </div>
+</div>
+</div>
+    </body>
+    <footer>
+        <p>(с) Витко Никита 2024</p>
+    </footer>
+</div>
+</html>

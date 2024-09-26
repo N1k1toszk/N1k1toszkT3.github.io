@@ -1,0 +1,122 @@
+html{
+    text-align:center;
+    font-size: x-large;
+    background-color:darkkhaki
+}
+.logo{
+    float:left;
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+.main{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.backtext{
+    margin: 0 auto;
+    text-align: center;
+
+}
+header{    background-color: bisque;}
+.menu{    
+    background-color: bisque;
+    font-size:200%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    }
+ol{
+    background-color: bisque;
+    text-align: left;}
+
+.silki{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    background-color: bisque;
+}
+.linkss{
+
+    text-align: center;
+    background-color: bisque;
+}
+form{
+    background-color: bisque;
+}
+h2{background-color: bisque;}
+footer{background-color: bisque;}
+
+.tabletask  {
+    background-color: bisque;
+    margin: 0 auto;
+}
+.tabletask table{
+    background-color: bisque;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabletask caption{
+    font-size: x-large;
+    text-align: center;
+    color:navy;
+    margin-bottom: 30px;
+    background-color: bisque;
+}
+.tabletask tr{background-color: rgb(252, 252, 252)
+}
+
+.tabletask th{background-color:bisque}
+.fig{
+    width: 90%;
+}
+.legenda{
+    width: 90%;
+}
+.swap{
+    display: flex;
+    flex-direction: column;
+}
+
+.ttt{
+    order:3;
+}
+.flex-order{
+    order:1;
+}
+.silki{
+    order:2
+}
+tr:nth-child(odd) {background-color:bisque;}
+@media (min-width:960px) {
+    .silki{
+        order:1
+    }
+    .ttt{
+        order:2;
+    }
+    .flex-order{
+        order:3;
+    }
+    .backtext{
+        text-align: center;
+    }
+    .menu{
+        display:flex;
+        flex-direction:row;
+        row-gap: center;
+        justify-content:space-around
+    }
+        .fig{
+            width: 40%;
+        }
+        .legenda{
+            width: 40%;
+        }
+    }
